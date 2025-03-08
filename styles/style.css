@@ -69,6 +69,14 @@ footer {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.place {    
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    width: 90%; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
 
 .webdev {
     display: grid;
