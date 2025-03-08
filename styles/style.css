@@ -1,0 +1,68 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.button7, .button8, .button9, .button1, .button2, .button3, .button4, .button5, .button6 {
+    background-color: #8B4513; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button7:hover, .button8:hover, .button9:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover {
+    background-color: #A0522D; 
+}
+
+
+header {
+    background-color: #2F4F4F; 
+    padding: 20px 0;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.webdev {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .webdev {
+        grid-template-columns: 1fr;
+    }
+}
