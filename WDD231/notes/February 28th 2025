@@ -1,0 +1,5 @@
+Today Im reading in preperation for the start of the new term. 
+
+First I read about normalization. The Class material wasn't helpful and I had to search on the internet to understand more about it. I think normalization is a practice to eliminate, reduce, or reset styling for browser compatability. According to a quote by Nicholar Ghallagher from the class notes, its a way in which the browsers render all elements more consistently and in line with modern standards. Except the class material doesnt elaborate on what those standards are. 
+
+Secondly I learned about "Specifity". Which mentioned its based off an algorithim assigning weights of CSS selectors. If there are multiple CSS selectors targetting the same element then the last one will take presidence.
