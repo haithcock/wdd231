@@ -29,7 +29,7 @@ section {
 }
 
 .button7, .button8, .button9, .button1, .button2, .button3, .button4, .button5, .button6 {
-    background-color: #8B4513; 
+    background-color: #218b13; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -41,7 +41,7 @@ section {
 }
 
 .button7:hover, .button8:hover, .button9:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover {
-    background-color: #A0522D; 
+    background-color: green; 
 }
 
 
@@ -53,6 +53,29 @@ header {
 footer {
     font-size: 0.75em;
     text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.course, .place {
+    flex: 1 1 45%; 
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.place {    
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    width: 90%; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
 .webdev {
