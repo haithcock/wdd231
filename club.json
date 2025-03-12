@@ -1,0 +1,52 @@
+{
+    "club": {
+        "name": "Fight Club",
+        "number of members": 5,
+        "president": "Tyler Durden",
+        "members": [
+            {
+                "name": "Tyler Durden",
+                "age": 30,
+                "rank": "president"
+            },
+            {
+                "name": "Marla Singer",
+                "age": 25,
+                "rank": "member"
+            },
+            {
+                "name": "Robert Paulson",
+                "age": 35,
+                "rank": "member"
+            },
+            {
+                "name": "Angel Face",
+                "age": 25,
+                "rank": "member"
+            },
+            {
+                "name": "Narrator",
+                "age": 30,
+                "rank": "member"
+            }
+        ],
+        "events": [
+            {
+                "toys for tots": {
+                    "date": "12/25/2018",
+                    "location": "Los Angeles, CA",
+                    "description": "Annual toy drive for children in need"
+                }
+            },
+            {
+                "fight night": {
+                    "date": "01/01/2019",
+                    "location": "Los Angeles, CA",
+                    "description": "Weekly fight night event"
+                }
+            }
+            
+        ]
+
+    }
+}
