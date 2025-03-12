@@ -33,19 +33,19 @@
         "events": [
             {
                 "toys for tots": {
-                    "date": "12/25/2018",
+                    "date": "12/25/2025",
                     "location": "Los Angeles, CA",
                     "description": "Annual toy drive for children in need"
                 }
             },
             {
                 "fight night": {
-                    "date": "01/01/2019",
+                    "date": "03/15/2025",
                     "location": "Los Angeles, CA",
                     "description": "Weekly fight night event"
                 }
             }
-            
+
         ]
 
     }
