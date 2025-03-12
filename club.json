@@ -1,7 +1,7 @@
 {
     "club": {
         "name": "Fight Club",
-        "number of members": 5,
+        "numberOfmembers": 5,
         "president": "Tyler Durden",
         "members": [
             {
