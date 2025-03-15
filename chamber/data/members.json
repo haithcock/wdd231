@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Mr. Handyman of Western Wake County",
+        "address": "805 Mt. Vernon Rd Suite A, Raleigh, NC 27607",
+        "phoneNumber": "(919) 424-3780",
+        "url": "https://www.mrhandyman.com/western-wake-county/",
+        "imageurl": "mr_handymand_western_wake.svg",
+        "memberLevel": 2,
+        "description": "Offers a wide range of home maintenance and repair services with licensed professionals."
+    },
+    {
+        "name": "Ever Clean Gutter Systems of the Triangle, NC",
+        "address": "1725 Carpenter Fletcher Rd, Suite 111, Durham, NC 27713",
+        "phoneNumber": "(984) 276-4789",
+        "url": "https://get.evercleangutter.com/locations/north-carolina",
+        "imageurl": "ever_clean_gutter_systems.jpg",
+        "memberLevel": 2,
+        "description": "Providing patented gutter systems with a lifetime warranty and guarantee to remain clog-free."
+    },
+    {
+        "name": "Gator Gutter Guard of Raleigh, NC",
+        "address": "2474 Walnut St, Cary, NC 27518",
+        "phoneNumber": "(919) 341-8282",
+        "url": "https://www.raleighgutterguards.com",
+        "imageurl": "gator_gutter_guard.jpg",
+        "memberLevel": 1,
+        "description": "Offers leaf gutter guard installation at the best price guaranteed."
+    },
+    {
+        "name": "Guardian Service",
+        "address": "1122 Oberlin Rd, Floor 1, Three Ships Building, Raleigh, NC 27605",
+        "phoneNumber": "(844) 448-2734",
+        "url": "https://guardianservice.com/",
+        "imageurl": "guardian_service.jpg",
+        "memberLevel": 3,
+        "description": "Your trusted partner in home protection, specializing in low-cost, comprehensive warranty plans for utility lines."
+    },
+    {
+        "name": "MoveZen Property Management",
+        "address": "609 St Marys St, Raleigh, NC 27605",
+        "phoneNumber": "(919) 249-8555",
+        "url": "https://MoveZen360.com/Raleigh",
+        "imageurl": "movezen_property_management.jpg",
+        "memberLevel": 2,
+        "description": "Customer-first property management, leading NC rental results brokerage for mom and pops."
+    },
+    {
+        "name": "TG Construction & Design, Inc.",
+        "address": "Raleigh, NC",
+        "phoneNumber": "(919) 521-7283",
+        "url": "https://tgconstructiondesign.com/",
+        "imageurl": "tg_construction_design.jpeg",
+        "memberLevel": 1,
+        "description": "A full-service firm offering design and building solutions to help your envisioned space become a reality."
+    },
+    {
+        "name": "Advance Community Health",
+        "address": "1001 Rock Quarry Rd, Raleigh, NC 27610",
+        "phoneNumber": "(919) 833-3111",
+        "url": "https://advancechc.org/",
+        "imageurl": "advance_community_health.jpg",
+        "memberLevel": 3,
+        "description": "Provides comprehensive primary health care services to the community, including pediatrics, dental, and behavioral health."
+    }
+]
