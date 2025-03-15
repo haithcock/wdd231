@@ -15,15 +15,15 @@ async function getBusinessData() {
     if (response.ok) {
         const data = await response.json();
         console.log("AWAITING RESPONSE data");
-        console.table(data.companies);
+        console.table(data);
 
         if (spotlight == true) {
-            let newList = createGoldSilverArray(data.companies);
+            let newList = createGoldSilverArray(data);
             console.table(newList);
             let randList = create3RandomBusinesses(newList);
             displayBusinesses(randList);
         } else {
-            displayBusinesses(data.companies);
+            displayBusinesses(data);
         };
     };
 }
