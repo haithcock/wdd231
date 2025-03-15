@@ -1,9 +1,9 @@
 :root {
-    --back_color1: #0D1B2A;
+    --back_color1: #1b0d2a;
     --back_color2: #757c85;
-    --back_color3: #57849C;
-    --back_color4: #add8e6;
-    --accent_color1: #7FC6DE;
+    --back_color3: #9c5799;
+    --back_color4: #ade6b5;
+    --accent_color1: #de7fa3;
     --accent_color2: #DFDFDF;
     --accent_color3: #EFEFEF;
     --accent_color4: #912A2A;
@@ -28,8 +28,6 @@ header, footer {
     justify-content: center;
 }
 
-/* COMMON HEADER/BODY CONTENT */
-/* No blue background in the body */
 
 header, body {
     margin: 0 auto;
@@ -68,7 +66,6 @@ button {
     background-color: var(--back_color2);
 }
 
-/* HEADER - NAVIGATION STUFF HERE */
 nav {
     background-color: var(--back_color1);
 }
@@ -147,7 +144,7 @@ main {
 #buss {
     padding: 0 1rem;
     grid-column: 1 / 4;
-    /* background-color: pink; */
+
     text-align: center;
 }
 
@@ -166,22 +163,17 @@ main {
 #forecast {
     padding: 0 1rem;
     text-transform: capitalize;
-    /* margin: 0 auto; */
+
     text-align: center;
     background-color: var(--back_color4);
 }
 
-/* JOIN Page */
 
 #joingrid {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-
-/* #memberlevels {
-    background-color: yellow;
-} */
 
 .np {
     border: 5px solid var(--back_color2);
@@ -232,7 +224,7 @@ main {
     border: 5px solid var(--back_color2);
     padding: 1vw;
     margin: 1px;
-    animation-name: gold;
+    --accent_color1: 
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -243,7 +235,8 @@ main {
     to {border-color: gold;}
 }
 
-#openButton {background-color: aqua;}
+#openButton {    margin: 1px;
+    --accent_color1: }
 
 #dialogBox {
     background-color: var(--accent_color3);
@@ -289,7 +282,7 @@ section .discovery {
 
 .discovery div {
     display: block;
-    /* border-color: var(--back_color1); */
+
     width: 100%;
     padding: 1rem;
     background-color: var(--back_color4);
@@ -302,8 +295,6 @@ section .discovery {
     padding: 1rem;
 }
 
-/* html: how to make image dynamically resize */
-/* https://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang */
 .main-discover img {
     width: 100%;
     height: auto;
@@ -314,7 +305,7 @@ section .discovery {
     padding-bottom: 1rem;
 }
 
-/* Only transform .discover-sights images */
+
 .discover-sights img:hover {
     transform: scale(1.1);
 }
@@ -329,7 +320,7 @@ section .discovery {
     text-align: center;
     align-self: center;
 }
-/* HERO IMAGE & JOIN BUTTON */
+
 
 .hero-text {
     text-align: center;
@@ -361,15 +352,7 @@ section .discovery {
     position: relative;
 }
   
-/* .hero-text {
-    position: absolute;
-    top: 0%;
-    right: 10%;
-    color: white;
-    background-color: var(--back_color2);
-    /* width: 40%;
-    height: 80%;
-} */
+
 
 .join-action {
     top: auto;
@@ -394,10 +377,10 @@ section .discovery {
     background-color: #FFFF00;
 }
 
-/* BUSINESS CARDS */
+
 
 section {
-    /* display: grid; */
+
     grid-template-columns: 2fr 1fr 1fr;
     gap: 5px;
     justify-content: space-around;
@@ -445,7 +428,7 @@ section img {
 }
 
 .list section:nth-child(even) {
-    background-color: #7FC6DE;
+    background-color: #d5b1f1;
 }
 
 .list .buss_name {
