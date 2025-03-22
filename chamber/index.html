@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="WDD231 W02 Chamber main index">
+    <meta name="author" content="Dakota Raul Hancock">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="WDD231 W02 Chamber index">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="WDD231 W02 Chamber index.">
+    <meta property="og:image" content="https://haithcock.github.io/wdd231/chamber/images/RaleighSky.jpeg">
+    <meta property="og:url" content="https://haithcock.github.io/wdd231/chamber/index.html#">
+
+    <link rel="icon" href="./images/R.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/indexVars.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+  <!--  <script src="scripts/gridButton.js" defer></script>-->
+    <script src="scripts/weather.js" defer></script>
+        
+    <title>WDD231 Main Index - Dakota Raul Hancock</title>
+</head>
+
+<body>
+    <header class="container">
+        <div>
+            <img src="./images/raleighchamber.png" alt="Raleigh Chamber Logo" width="100" height="74">
+        </div>
+        <div class="pad">
+            <h1>Raleigh - Chamber of Commerce</h1>            
+        </div>
+        <button id="myButton" aria-label="Raleigh Chamber Logo"></button>
+    </header>
+
+    <div class="hero-image">
+        <img class="hero-image" src="images/RaleighSky.jpeg" alt="Raleigh, the city in NC">
+        <div class="hero-text">
+          <a href="https://haithcock.github.io/wdd231/chamber/join.html">Join the Chamber of Commerce</a>
+        </div>
+    </div>
+    
+    <nav id="animateme">
+
+        <ul class="menuLinks">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="directory.html" title="Businesses">Business Directory</a></li>
+            <li><a href="join.html" title="Join the Chamber of Commerce">Join</a></li>
+        </ul>
+    </nav>
+
+    <div id="grid_list">
+        <button id="select_grid"><img src="images/grid_icon_48_48.png" alt="grid layout" width="30" height="30"></button>
+        <button id="select_list"><img src="images/list_ic_icon_48_48.png" alt="list layout" width="30" height="30"></button>
+    </div>
+    <main class="main-large">
+        <section id="home">
+            <div class="events">
+                <h2>Events</h2>
+                <p>Every friday at 5pm, there will be a mandatory "whopping and hollering" session by the RedHat Amphitheatre. Failure to comply with result in a 20 mile sprint.</p>
+            </div>
+            <div id="weather">
+                <h2>Current Weather</h2>
+                <div id="weather1"></div>
+            </div>
+            <div id="forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecast1"></div>
+                <div id="forecast2"></div>
+                <div id="forecast3"></div>
+            </div>
+        </section>
+
+        <section class="companies">
+            <div id="buss">
+                <h2>Spotlighting 3 Raleigh Businesses</h2>
+                <div id="cards"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div>
+            <img src="./images/raleighchamber.png" alt="Raleigh Chamber Logo" width="100" height="74">
+            <p>Raleigh</p>
+            <p>800 S Salisbury St,</p>
+            <p>Raleigh NC 27601</p>
+            <p>(919) 664-7000</p>
+            <p>mail@raleighchamber.org</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/RaleighChamber" target="_blank">
+                <img src="images/facebook_50_50.png" alt="Facebook" width="50" height="50">
+            </a>
+            <a href="https://twitter.com/RaleighChamber" target="_blank">
+                <img src="images/twitter_50_50.png" alt="Twitter" width="50" height="50">
+            </a>
+            <a href="https://www.instagram.com/RaleighChamber/" target="_blank">
+                <img src="images/instagram_50_50.png" alt="Instagram" width="50" height="50">
+            </a>
+
+        </div>
+
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Dakota Raul Hancock</p>
+            <p id="copywrite"></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

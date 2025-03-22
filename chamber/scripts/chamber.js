@@ -5,7 +5,7 @@ const navElement = document.querySelector('#animateme'); // TODO
 const membersURL = 'data/members.json';
 const cards = document.querySelector('#cards');
 
-let spotlight = false; // Set to true if you want to filter gold/silver members
+/*let spotlight = false; // Set to true if you want to filter gold/silver members&*/
 
 console.log("Going to GET business data");
 getBusinessData();
