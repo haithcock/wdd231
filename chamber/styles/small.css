@@ -224,7 +224,7 @@ main {
     border: 5px solid var(--back_color2);
     padding: 1vw;
     margin: 1px;
-    --accent_color1: 
+    --accent_color1: #de7fa3;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -236,7 +236,7 @@ main {
 }
 
 #openButton {    margin: 1px;
-    --accent_color1: }
+    --accent_color1: #de7fa3; }
 
 #dialogBox {
     background-color: var(--accent_color3);
