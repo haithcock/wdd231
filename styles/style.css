@@ -71,7 +71,7 @@ footer {
     grid-gap: 5px;
     place-items: center;
 }
-/*
+
 .course, .place {
     flex: 1 1 45%; 
     margin: 10px;
@@ -89,7 +89,7 @@ footer {
     width: 90%; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
-/*
+
 .webdev {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -101,7 +101,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-*/
+
 section {
     padding: 1.5rem;
     background-color: white;
