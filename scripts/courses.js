@@ -170,6 +170,6 @@ function createCoursesCard(filteredcourses) {
         coursename.innerHTML = courseNameStr;
 
         card.appendChild(coursename);
-        doc.querySelector(".container").appendChild(coursename);
+        doc.querySelector(".container").appendChild(card);
     })
 }
