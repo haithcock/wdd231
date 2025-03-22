@@ -17,6 +17,10 @@ header, nav, footer {
     text-align: center;
     padding: 10px 0;
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
 
 nav a {
     color: white;
@@ -141,4 +145,18 @@ section {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.selector {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.selector button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
