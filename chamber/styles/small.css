@@ -1,6 +1,6 @@
 :root {
     --back_color1: #1b0d2a;
-    --back_color2: #757c85;
+    --back_color2: #c6c6c9;
     --back_color3: #9c5799;
     --back_color4: #ade6b5;
     --accent_color1: #de7fa3;
@@ -24,7 +24,7 @@
 
 header, footer {
     background-color: var(--back_color2); padding: 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: center;
 }
 
