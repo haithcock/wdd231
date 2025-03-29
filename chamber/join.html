@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="WDD231 W02 Chamber Join Page">
+    <meta name="author" content="Dakota Raul Hancock">
+
+    <meta property="og:title" content="WDD231 W02 Chamber Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="WDD231 W02 Chamber Join Page developed by Dakota haithcock.">
+    <meta property="og:image"
+        content="https://cliffcummings.github.io/wdd231/chamber/images/1024px-Mount_Timpanogos_1024_350.webp">
+    <meta property="og:url" content="https://haithcock.github.io/wdd231/chamber/directory.html#">
+
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+    <title>WDD231 Home Page - Dakota Hancock</title>
+</head>
+
+<body>
+    <header class="container">
+        <div>
+            <img src="./images/raleighchamber.png" alt="Raleigh Chamber Logo" width="100" height="74">
+        </div>
+        <div class="pad">
+            <h1>Raleigh - Chamber of Commerce</h1>            
+        </div>
+        <button id="myButton" aria-label="Raleigh Chamber Logo"></button>
+    </header>
+
+    <nav id="animateme">
+        <ul class="menuLinks">
+            <li class="current-menu-item"><a href="index.html" title="Home">Home</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="directory.html" title="Businesses">Business Directory</a></li>
+            <li><a href="join.html" title="Join the Chamber of Commerce">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-large">
+
+        <div id="joingrid">
+            <section id="form">
+                <h2>Join The Chamber of Commerce</h2>
+                <p><span class="required">*</span> Indicates a required field.</p>
+
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Membership Application Form</legend>
+                        <div class="form-item firstname">
+                            <span class="required">*</span>
+                            <label for="firstname">First Name:</label><p>
+                            <input type="text" id="firstname" name="firstname" 
+                            autocomplete="given-name" required><br>
+                        </p></div>
+                        <div class="form-item lastname">
+                            <span class="required">*</span>
+                            <label for="lastname">Last Name:</label><p>
+                            <input type="text" id="lastname" name="lastname" 
+                            autocomplete="family-name" required><br>
+                        </p></div>                    
+                        <div class="form-item orgtitle">
+                            <label for="orgtitle">Title:</label><p>
+                            <input type="text" id="orgtitle" name="orgtitle" pattern="[a-zA-Z0-9\-\s]{7,}"
+                            autocomplete="organization-title"><br>
+                        </p></div>
+                        <div class="form-item email">
+                            <span class="required">*</span>
+                            <label for="email">email Address:</label><p>
+                            <input type="email" id="email" name="email" placeholder="name@gmail.com"
+                            autocomplete="email" required><br>
+                        </p></div>                    
+                        <div class="form-item mobile">
+                            <span class="required">*</span>
+                            <label for="mobile">Mobile Phone Number:</label><p>
+                            <input type="tel" id="mobile" name="mobile" placeholder="123-456-6789" pattern="[0-9]{3}[-]*[0-9]{3}[-]*[0-9]{4}"
+                            autocomplete="tel" required><br>
+                        </p></div>
+                        <div class="form-item orgname">
+                            <span class="required">*</span>
+                            <label for="orgname">Business/Organization's Name:</label><p>
+                            <input type="text" id="orgname" name="orgname" 
+                            autocomplete="organization" required><br>
+                        </p></div>
+
+                        <div class="form-item column1">
+                            <label for="level">Membership Level:</label><p>
+                            <select class="option" name="level" id="level">
+                            <option value="nonp">NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                            </select>
+                        </p></div>
+
+                        <label class="desc" for="feedback">Business Description:</label><p>
+                            <textarea id="feedback" name="feedback" rows="4" placeholder="Your business description here"></textarea>
+                            
+                        <input type="hidden" name="timestamp" id="timestamp">
+                    </fieldset>
+        
+                    <div>
+                        <input type="submit" value="Submit Chamber of Commerce Application">
+                    </div>
+        
+                </form>
+            </section>
+
+            <section id="memberlevels">
+                <h2>Membership Levels</h2>
+                <dialog id="dialogBox">
+                    <h4>Sample Level</h4>
+                    <p>Sample String</p>
+                    <button id="closeButton">Close</button>
+                </dialog>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div>
+            <img src="./images/raleighchamber.png" alt="Raleigh Chamber Logo" width="100" height="74">
+            <p>Raleigh</p>
+            <p>800 S Salisbury St,</p>
+            <p>Raleigh NC 27601</p>
+            <p>(919) 664-7000</p>
+            <p>mail@raleighchamber.org</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/RaleighChamber" target="_blank">
+                <img src="images/facebook_50_50.png" alt="Facebook" width="50" height="50">
+            </a>
+            <a href="https://twitter.com/RaleighChamber" target="_blank">
+                <img src="images/twitter_50_50.png" alt="Twitter" width="50" height="50">
+            </a>
+            <a href="https://www.instagram.com/RaleighChamber/" target="_blank">
+                <img src="images/instagram_50_50.png" alt="Instagram" width="50" height="50">
+            </a>
+
+        </div>
+
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Dakota Raul Hancock</p>
+            <p id="copywrite"></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
