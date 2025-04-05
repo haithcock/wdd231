@@ -67,6 +67,18 @@ button {
 }
 
 nav {
+    grid-template-rows: 1fr;
+    background-color: var(--back_color1);
+}
+ul.menuLinks,
+ul.menuLinks.open {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 1rem 0 0.5rem 0;
+}
+nav {
+    grid-template-rows: 1fr;
     background-color: var(--back_color1);
 }
 
