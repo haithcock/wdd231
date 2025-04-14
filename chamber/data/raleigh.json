@@ -1,0 +1,51 @@
+[
+    {
+      "name": "North Carolina Museum of Natural Sciences",
+      "address": "11 W Jones St, Raleigh, NC 27601",
+      "description": "Experience dinosaur exhibits, live animals, and immersive learning in the largest natural history museum in the Southeast.",
+      "image": "nc-natural-sciences.webp"
+    },
+    {
+      "name": "Marbles Kids Museum",
+      "address": "201 E Hargett St, Raleigh, NC 27601",
+      "description": "Hands-on exhibits, interactive play areas, and an IMAX theatre for children of all ages.",
+      "image": "marbles-kids-museum.webp"
+    },
+    {
+      "name": "Pullen Park",
+      "address": "520 Ashe Ave, Raleigh, NC 27606",
+      "description": "Features a historic carousel, paddle boats, playgrounds, and plenty of green space for family fun.",
+      "image": "pullen-park.webp"
+    },
+    {
+      "name": "JC Raulston Arboretum",
+      "address": "4415 Beryl Rd, Raleigh, NC 27606",
+      "description": "A nationally acclaimed garden featuring diverse plant collections and educational programs.",
+      "image": "jc-raulston-arboretum.webp"
+    },
+    {
+      "name": "North Carolina State Capitol",
+      "address": "1 E Edenton St, Raleigh, NC 27601",
+      "description": "Completed in 1840, this historic building offers guided tours and showcases neoclassical architecture.",
+      "image": "nc-state-capitol.webp"
+    },
+    {
+      "name": "Historic Yates Mill County Park",
+      "address": "4620 Lake Wheeler Rd, Raleigh, NC 27603",
+      "description": "Home to a fully restored, water-powered gristmill and scenic hiking trails around the pond.",
+      "image": "yates-mill-park.webp"
+    },
+    {
+      "name": "Mordecai Historic Park",
+      "address": "1 Mimosa St, Raleigh, NC 27604",
+      "description": "Features the birthplace of Andrew Johnson and the beautifully preserved Mordecai House.",
+      "image": "mordecai-historic-park.webp"
+    },
+    {
+      "name": "Raleigh Flea Market",
+      "address": "1025 Blue Ridge Rd, Raleigh, NC 27607",
+      "description": "Offers a variety of vendors selling collectibles, antiques, and local produce at the NC State Fairgrounds.",
+      "image": "raleigh-flea-market.webp"
+    }
+  ]
+  
