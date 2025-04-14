@@ -96,3 +96,9 @@
         padding-bottom: 1rem;
     }
 }
+@media (min-width: 641px) {
+    .raleigh-card figure img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }

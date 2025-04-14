@@ -472,3 +472,36 @@ section img {
     overflow: hidden;
     word-wrap: break-word;
 }
+.raleigh-card {
+    /* your card styles, e.g.: */
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  /* Example media queries for layout: */
+  @media (max-width: 640px) {
+    #raleighCards {
+      display: grid;
+      grid-template-columns: 1fr; 
+      /* Named grid areas or simply single-column layout */
+    }
+  }
+  
+  @media (min-width: 641px) and (max-width: 1024px) {
+    #raleighCards {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      /* Named grid areas for your medium layout */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    #raleighCards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+      /* Named grid areas for large screens */
+    }
+  }
+
+  
