@@ -160,3 +160,58 @@ section {
     cursor: pointer;
     border-radius: 5px;
 }
+:root {
+    --primary-color: #f7ebecff;
+    --secondary-color: #ddbdd5ff;
+    --accent1-color: #ac9fbbff;
+    --accent2-color: #59656fff;
+    --accent3-color: #1d1e2cff;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--accent2-color);
+}
+
+h2, h3, h4 {
+    color: var(--accent3-color);
+}
+
+div.site.purpose {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+div.site.purpose p, div.site.purpose a {
+    color: #1d1e2c;
+    font-size: 1rem;
+}
+
+a {
+    color: var(--accent2-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--accent3-color);
+}
